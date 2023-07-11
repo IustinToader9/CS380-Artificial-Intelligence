@@ -1,1 +1,1 @@
-# CS380-Artificial-Intelligence
+A collection of my homework assignments for the class.
