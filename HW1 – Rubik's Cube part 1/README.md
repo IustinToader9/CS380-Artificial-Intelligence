@@ -15,6 +15,7 @@
   - Function that prints the state in ASCII characters
   - If the state representation argument is not provided, uses the default state mentioned above
   - Example: sh run.sh print "RWOR GOYB BOGW BRBW YWYO RGYG"
+    
 ![image](https://github.com/IustinToader9/CS380-Artificial-Intelligence/blob/476b599ce4d5f402a85858fe68eb8eee34962175/HW1%20%E2%80%93%20Rubik's%20Cube%20part%201/imgs/img2.png)
 
 ## - goal
@@ -22,7 +23,6 @@
   - Example: sh run.sh goal "WWWW RRRR GGGG YYYY OOOO BBBB"
     
              True
-
 ## - applyMove
   - Given a state and a move, performs the move in the state
   - Possible moves are:
@@ -33,6 +33,7 @@
    - Given a state and a string sequence of moves, returns a new state, resulting from cloning the state and then applying the sequence of moves to the cloned state.
    - If the state representation argument is not provided, the default state is used
    - Example: sh run.sh applyMovesStr "R U' R'" "WWWW RRRR GGGG YYYY OOOO BBBB"
+     
 ![image](https://github.com/IustinToader9/CS380-Artificial-Intelligence/blob/476b599ce4d5f402a85858fe68eb8eee34962175/HW1%20%E2%80%93%20Rubik's%20Cube%20part%201/imgs/img3.png)
    
 
@@ -40,6 +41,7 @@
   - Starts from the default cube and shuffles it by picking n random moves
   - Example:
 sh run.sh shuffle 10 R' R F D' B R' B' R R F
+
 ![image](https://github.com/IustinToader9/CS380-Artificial-Intelligence/blob/476b599ce4d5f402a85858fe68eb8eee34962175/HW1%20%E2%80%93%20Rubik's%20Cube%20part%201/imgs/img4.png)
 
 ## - random 
@@ -48,7 +50,7 @@ sh run.sh shuffle 10 R' R F D' B R' B' R R F
   - The method also takes a time limit in seconds
   - Example: sh run.sh random "L D' R' F R D'" 6 10
     
-             U B' U' F L F'
+U B' U' F L F'
 ![image](https://github.com/IustinToader9/CS380-Artificial-Intelligence/blob/476b599ce4d5f402a85858fe68eb8eee34962175/HW1%20%E2%80%93%20Rubik's%20Cube%20part%201/imgs/img5.png)
 
 916314
