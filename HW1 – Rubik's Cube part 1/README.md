@@ -7,12 +7,7 @@
 
 - Cube has 6 2x2 faces, with each letter representing the color of a cubie. The default state of the cube is the following: "WWWW RRRR GGGG YYYY OOOO BBBB"
 - The indexing order that maps this string to the 2-dimensional representation of the cube is as follows:
-       0  1
-       2  3
-16 17  8  9  4  5  20 21
-18 19 10 11  6  7  22 23
-      12 13
-      14 15
+![image](https://github.com/IustinToader9/CS380-Artificial-Intelligence/blob/476b599ce4d5f402a85858fe68eb8eee34962175/HW1%20%E2%80%93%20Rubik's%20Cube%20part%201/imgs/img1.png)
 
 # Methods
 
