@@ -8,11 +8,17 @@
 - Cube has 6 2x2 faces, with each letter representing the color of a cubie. The default state of the cube is the following: "WWWW RRRR GGGG YYYY OOOO BBBB"
 - The indexing order that maps this string to the 2-dimensional representation of the cube is as follows:
        0  1
+  
        2  3
+  
 16 17  8  9  4  5  20 21
+
 18 19 10 11  6  7  22 23
+
       12 13
+      
       14 15
+      
 
 # Methods
 
@@ -42,23 +48,36 @@
    - Given a state and a string sequence of moves, returns a new state, resulting from cloning the state and then applying the sequence of moves to the cloned state.
    - If the state representation argument is not provided, the default state is used
    - Example: sh run.sh applyMovesStr "R U' R'" "WWWW RRRR GGGG YYYY OOOO BBBB"
+
    GW
+   
    WR
+   
 WB OG YR BR
+
 OO GW GR BB
+
    YO
+   
    YY
+   
 
 ## - shuffle
   - Starts from the default cube and shuffles it by picking n random moves
   - Example:
 sh run.sh shuffle 10 R' R F D' B R' B' R R F
    WG
+
    GY
+   
 OR WG OW OB
+
 RW BG RY BY
+
    RY
+   
    BO
+   
 
 ## - random 
   - Method that completes a random walk
@@ -68,25 +87,43 @@ RW BG RY BY
              U B' U' F L F'
 
       BW            GB            WR
+    
       GW            WW            WW
-   OY RR BB OY   RR BB OY OY   RR BB OG YG  
+    
+   OY RR BB OY   RR BB OY OY   RR BB OG YG
+   
    WR BY OO WG   WR BY OO WG   GR BY OB OW
+   
       YG            YG            YG
+      
       RG            RG            OY
+      
 
       RW            RW            WW
+      
       WW            RG            GG
+      
    YG RR BB OG   YY BR WB OG   GY RR WB OO
+   
    GR BY OB OW   GG YR WB OW   GY RR WB OO
+   
       YG            OB            BB
+      
       OY            OY            YY
+      
 
       WW
+      
       WW
+      
    GG RR BB OO
+   
    GG RR BB OO
+   
       YY
+      
       YY
+      
 
 916314
 5.33
