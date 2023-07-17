@@ -1,4 +1,4 @@
-My implementation of various adversarial agents to play the game Othello as directed in the [instructions file] (https://github.com/IustinToader9/CS380-Artificial-Intelligence/blob/a56d6959d5d12bc23c04686c8da76ea3ea998ae5/HW3%20%E2%80%93%20Othello/Othello.pdf)
+My implementation of various adversarial agents to play the game Othello as directed in the [instructions file](https://github.com/IustinToader9/CS380-Artificial-Intelligence/blob/a56d6959d5d12bc23c04686c8da76ea3ea998ae5/HW3%20%E2%80%93%20Othello/Othello.pdf)
 
 The available agents are the following:
   - Human agent: The program awaits a human player's input for each turn
